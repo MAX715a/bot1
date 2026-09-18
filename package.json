@@ -1,0 +1,22 @@
+{
+  "name": "max-bot",
+  "version": "1.0.0",
+  "description": "MAX - بوت ديسكورد شامل: حماية، موسيقى، تذاكر، فعاليات، سجلات",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "@discordjs/voice": "^0.17.0",
+    "@discordjs/opus": "^0.9.0",
+    "libsodium-wrappers": "^0.7.13",
+    "play-dl": "^1.9.7",
+    "ffmpeg-static": "^5.2.0",
+    "dotenv": "^16.4.5"
+  }
+}
